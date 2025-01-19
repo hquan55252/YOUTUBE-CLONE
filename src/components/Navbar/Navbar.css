@@ -1,0 +1,108 @@
+nav {
+  padding: 1.6rem 2%;
+  justify-content: space-between;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  height: 5.6rem;
+}
+
+.nav-left .menu-icon {
+  width: 2.2rem;
+  margin-right: 2.5rem;
+}
+
+.nav-left .logo {
+  width: 10rem;
+}
+
+.nav-middle .search-box {
+  border: 1px solid #ccc;
+  margin-right: 1.5rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 2.5rem;
+}
+
+.nav-middle .search-box input {
+  ouline: 0;
+  border: 0;
+  width: 40rem;
+  background: transparent;
+}
+
+.nav-middle .search-box img {
+  width: 1.5rem;
+}
+
+.nav-middle .voice-search {
+  background: #f2f2f2;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.voice-search:hover {
+  background: #e5e5e5;
+}
+
+.nav-middle .voice-search img {
+  width: 2rem;
+}
+
+.nav-right img {
+  width: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.nav-right .user-icon {
+  width: 3.5rem;
+  border-radius: 50%;
+}
+
+.nav-right .create-btn {
+  display: flex;
+  background: #f2f2f2;
+  padding: 1rem 1.2rem;
+  border-radius: 1.8rem;
+  margin-right: 2.5rem;
+  cursor: pointer;
+}
+
+.create-btn:hover {
+  background: #e5e5e5;
+}
+
+.create-btn img {
+  margin-right: 1rem;
+  width: 2rem;
+}
+
+.create-btn span {
+  font-weight: 600;
+}
+
+@media (max-width: 70rem) {
+  /* Thanh tìm kiếm */
+  .nav-middle .search-box {
+    max-width: 25rem; /* Thu ngắn chiều rộng thanh tìm kiếm */
+  }
+
+  .nav-middle .search-box input {
+    font-size: 1.4rem; /* Giảm kích thước font chữ */
+    padding: 0.4rem; /* Thu nhỏ padding bên trong */
+  }
+}
+
+/* Mobile: Màn hình nhỏ hơn 48rem */
+@media (max-width: 48rem) {
+  .nav-middle .search-box {
+    max-width: 18rem; /* Tiếp tục thu ngắn hơn nữa */
+  }
+
+  .nav-middle .search-box input {
+    font-size: 1.2rem; /* Giảm thêm kích thước font chữ */
+    padding: 0.3rem;
+  }
+}
