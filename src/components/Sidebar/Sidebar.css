@@ -7,6 +7,13 @@
   padding-left: 1%;
   padding-top: 8rem;
   box-sizing: border-box;
+
+}
+
+.sidebar:hover {
+    overflow-y: auto; /* Thêm dòng này */
+    scrollbar-width: thin; /* Tuỳ chỉnh độ dày thanh cuộn trên Firefox */
+    scrollbar-color: #ccc transparent; /* Tuỳ chỉnh màu trên Firefox */
 }
 
 .shortcut-links img {

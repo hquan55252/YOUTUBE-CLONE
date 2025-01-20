@@ -1,0 +1,43 @@
+.nav-middle .search-box {
+  border: 1px solid #ccc;
+  margin-right: 1.5rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 2.5rem;
+}
+
+.nav-middle .search-box input {
+  ouline: 0;
+  border: 0;
+  width: 40rem;
+  background: transparent;
+}
+
+.search-box img {
+  width: 1.5rem;
+}
+
+.search-box button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.search-box input:focus {
+  border: none;
+  outline: none;
+}
+
+.nav-middle .voice-search {
+  background: #f2f2f2;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.voice-search:hover {
+  background: #e5e5e5;
+}
+
+.nav-middle .voice-search img {
+  width: 2rem;
+}
