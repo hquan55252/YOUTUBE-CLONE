@@ -41,6 +41,7 @@ export default function Navbar({ setSidebar }) {
           <span>Create</span>
         </div>
         <img src={notification_icon} alt="" />
+
         <img src={profile_icon} className="user-icon" alt="" />
       </div>
     </nav>

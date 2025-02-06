@@ -12,7 +12,7 @@ import { API_KEY, value_converter } from "../../data";
 import moment from "moment";
 import { useParams } from "react-router";
 
-export default function PlayVideo() {
+export default function PlayVideoS() {
   const { videoId } = useParams();
   const [apiData, setApiData] = useState(null);
   const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);

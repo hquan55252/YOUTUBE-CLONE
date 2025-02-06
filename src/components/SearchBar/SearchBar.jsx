@@ -14,7 +14,7 @@ export default function SearchBar() {
 
     if (searchTerm) {
       navigate(`/search/${searchTerm}`);
-      setSearchTerm("");
+      //   setSearchTerm("");
     }
   };
   return (
